@@ -1,0 +1,185 @@
+{
+  "microservices": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "entities": [
+        "CareerDay.id",
+        "CareerDayRegistration.id"
+      ],
+      "operations": [
+        "registerToCareerDay"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "entities": [
+        "Experience.id",
+        "ExperienceType.id"
+      ],
+      "operations": [
+        "createExperience",
+        "deleteExperience",
+        "retrieveExperienceTypes",
+        "updateExperience",
+        "updateExperienceOrder"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "entities": [
+        "Qualification.id",
+        "Vote.id",
+        "Course.id"
+      ],
+      "operations": [
+        "retrieveQualifications",
+        "retrieveVotes"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "entities": [
+        "Filter.id"
+      ],
+      "operations": [
+
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "m5",
+      "label": "m5",
+      "entities": [
+        "Event.id",
+        "Interview.id",
+        "Content.id",
+        "Stream.id",
+        "Webinar.id",
+        "FilterDefinition.id",
+        "CommunityArticle.id",
+        "Industry.id",
+        "Media.id",
+        "CheckIn.id",
+        "Post.id",
+        "Sector.id",
+        "Type.id",
+        "EmployerHasOperator.id",
+        "Application.id",
+        "City.id",
+        "MediaSet.id",
+        "ProfileMoment.id",
+        "Profile.id",
+        "JobOffer.id",
+        "WebinarParticipation.id",
+        "Country.id"
+      ],
+      "operations": [
+        "RetrieveCommunityArticles",
+        "RetrieveContentsIdFromSlug",
+        "applyJobOffer",
+        "deleteInterview",
+        "deleteStory",
+        "eventCheckIn",
+        "participateWebinar",
+        "retrieveActivities",
+        "retrieveApplication",
+        "retrieveCompanies",
+        "retrieveEmployerJobOffers",
+        "retrieveEmployerPosts",
+        "retrieveEmployerWebinars",
+        "retrieveEventDetail",
+        "retrieveInstitutes",
+        "retrieveJobOfferDetail",
+        "retrievePostDetail",
+        "retrieveStoryVideo",
+        "retrieveStreamBySlug",
+        "retrieveStreamDetail",
+        "retrieveStreamsHome",
+        "retrieveWebinarDetail",
+        "retrieveWebinarParticipation",
+        "scheduleInterview",
+        "startApply",
+        "uploadCV",
+        "uploadStory",
+        "webinarOffline",
+        "webinarRegistration"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "m6",
+      "label": "m6",
+      "entities": [
+        "StudyTag.id",
+        "Language.id",
+        "Google.id",
+        "UserHasLanguage.id",
+        "Institute.id",
+        "Facebook.id",
+        "Apple.id",
+        "User.id",
+        "MacroStudyTag.id",
+        "Skill.id",
+        "SkillLevel.id",
+        "LanguageLevel.id",
+        "Education.id",
+        "UserHasSkill.id"
+      ],
+      "operations": [
+        "AppleV1",
+        "ChangePassword",
+        "Facebook",
+        "ForgotPassword",
+        "Google",
+        "Login",
+        "Logout",
+        "ResetPassword",
+        "Signup",
+        "createEducation",
+        "createLanguage",
+        "createSkill",
+        "deleteEducation",
+        "deleteLanguage",
+        "deleteSkill",
+        "deleteUser",
+        "employerRetrieveCurriculum",
+        "employerRetrieveUserInfo",
+        "retrieveCurrentUniversityInfo",
+        "retrieveCurriculum",
+        "retrieveEmployerInfo",
+        "retrieveLanguageLevels",
+        "retrieveLanguages",
+        "retrieveSkillLevels",
+        "retrieveSkills",
+        "retrieveStudyTags",
+        "updateContacts",
+        "updateEducation",
+        "updateLanguageOrder",
+        "updateOrderEducation",
+        "updateProfile",
+        "updateSkillOrder",
+        "updateUserProfile",
+        "usersMe"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "m7",
+      "label": "M7",
+      "entities": [
+        "CountryHasQualification.id"
+      ],
+      "operations": [
+
+      ],
+      "dependencies": []
+    }
+  ]
+}

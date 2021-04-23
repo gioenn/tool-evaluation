@@ -1,0 +1,480 @@
+{
+  "communication_weight": "1",
+  "coupling_weight": "1",
+  "microservices": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "entities": [
+        {
+          "id": "e1",
+          "label": "Apple"
+        },
+        {
+          "id": "e2",
+          "label": "Application"
+        },
+        {
+          "id": "e3",
+          "label": "CareerDay"
+        },
+        {
+          "id": "e4",
+          "label": "CareerDayRegistration"
+        },
+        {
+          "id": "e5",
+          "label": "CheckIn"
+        },
+        {
+          "id": "e6",
+          "label": "City"
+        },
+        {
+          "id": "e7",
+          "label": "CommunityArticle"
+        },
+        {
+          "id": "e8",
+          "label": "Content"
+        },
+        {
+          "id": "e9",
+          "label": "Country"
+        },
+        {
+          "id": "e10",
+          "label": "CountryHasQualification"
+        },
+        {
+          "id": "e11",
+          "label": "Course"
+        },
+        {
+          "id": "e12",
+          "label": "Education"
+        },
+        {
+          "id": "e13",
+          "label": "EmployerHasOperator"
+        },
+        {
+          "id": "e14",
+          "label": "Event"
+        },
+        {
+          "id": "e15",
+          "label": "Experience"
+        },
+        {
+          "id": "e16",
+          "label": "ExperienceType"
+        },
+        {
+          "id": "e17",
+          "label": "Facebook"
+        },
+        {
+          "id": "e18",
+          "label": "Filter"
+        },
+        {
+          "id": "e19",
+          "label": "FilterDefinition"
+        },
+        {
+          "id": "e20",
+          "label": "Google"
+        },
+        {
+          "id": "e21",
+          "label": "Industry"
+        },
+        {
+          "id": "e22",
+          "label": "Institute"
+        },
+        {
+          "id": "e23",
+          "label": "Interview"
+        },
+        {
+          "id": "e24",
+          "label": "JobOffer"
+        },
+        {
+          "id": "e25",
+          "label": "Language"
+        },
+        {
+          "id": "e26",
+          "label": "LanguageLevel"
+        },
+        {
+          "id": "e27",
+          "label": "MacroStudyTag"
+        },
+        {
+          "id": "e28",
+          "label": "Media"
+        },
+        {
+          "id": "e29",
+          "label": "MediaSet"
+        },
+        {
+          "id": "e30",
+          "label": "Post"
+        },
+        {
+          "id": "e31",
+          "label": "Profile"
+        },
+        {
+          "id": "e32",
+          "label": "ProfileMoment"
+        },
+        {
+          "id": "e33",
+          "label": "Qualification"
+        },
+        {
+          "id": "e34",
+          "label": "Sector"
+        },
+        {
+          "id": "e35",
+          "label": "Skill"
+        },
+        {
+          "id": "e36",
+          "label": "SkillLevel"
+        },
+        {
+          "id": "e37",
+          "label": "Stream"
+        },
+        {
+          "id": "e38",
+          "label": "StudyTag"
+        },
+        {
+          "id": "e39",
+          "label": "Type"
+        },
+        {
+          "id": "e40",
+          "label": "User"
+        },
+        {
+          "id": "e41",
+          "label": "UserHasLanguage"
+        },
+        {
+          "id": "e42",
+          "label": "UserHasSkill"
+        },
+        {
+          "id": "e43",
+          "label": "Vote"
+        },
+        {
+          "id": "e44",
+          "label": "Webinar"
+        },
+        {
+          "id": "e45",
+          "label": "WebinarParticipation"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op1",
+          "label": "AppleV1"
+        },
+        {
+          "id": "op2",
+          "label": "ChangePassword"
+        },
+        {
+          "id": "op3",
+          "label": "Facebook"
+        },
+        {
+          "id": "op4",
+          "label": "ForgotPassword"
+        },
+        {
+          "id": "op5",
+          "label": "Google"
+        },
+        {
+          "id": "op6",
+          "label": "Login"
+        },
+        {
+          "id": "op7",
+          "label": "Logout"
+        },
+        {
+          "id": "op8",
+          "label": "ResetPassword"
+        },
+        {
+          "id": "op9",
+          "label": "RetrieveCommunityArticles"
+        },
+        {
+          "id": "op10",
+          "label": "RetrieveContentsIdFromSlug"
+        },
+        {
+          "id": "op11",
+          "label": "Signup"
+        },
+        {
+          "id": "op12",
+          "label": "applyJobOffer"
+        },
+        {
+          "id": "op13",
+          "label": "createEducation"
+        },
+        {
+          "id": "op14",
+          "label": "createExperience"
+        },
+        {
+          "id": "op15",
+          "label": "createLanguage"
+        },
+        {
+          "id": "op16",
+          "label": "createSkill"
+        },
+        {
+          "id": "op17",
+          "label": "deleteEducation"
+        },
+        {
+          "id": "op18",
+          "label": "deleteExperience"
+        },
+        {
+          "id": "op19",
+          "label": "deleteInterview"
+        },
+        {
+          "id": "op20",
+          "label": "deleteLanguage"
+        },
+        {
+          "id": "op21",
+          "label": "deleteSkill"
+        },
+        {
+          "id": "op22",
+          "label": "deleteStory"
+        },
+        {
+          "id": "op23",
+          "label": "deleteUser"
+        },
+        {
+          "id": "op24",
+          "label": "employerRetrieveCurriculum"
+        },
+        {
+          "id": "op25",
+          "label": "employerRetrieveUserInfo"
+        },
+        {
+          "id": "op26",
+          "label": "eventCheckIn"
+        },
+        {
+          "id": "op27",
+          "label": "participateWebinar"
+        },
+        {
+          "id": "op28",
+          "label": "registerToCareerDay"
+        },
+        {
+          "id": "op29",
+          "label": "retrieveActivities"
+        },
+        {
+          "id": "op30",
+          "label": "retrieveApplication"
+        },
+        {
+          "id": "op31",
+          "label": "retrieveCompanies"
+        },
+        {
+          "id": "op32",
+          "label": "retrieveCurrentUniversityInfo"
+        },
+        {
+          "id": "op33",
+          "label": "retrieveCurriculum"
+        },
+        {
+          "id": "op34",
+          "label": "retrieveEmployerInfo"
+        },
+        {
+          "id": "op35",
+          "label": "retrieveEmployerJobOffers"
+        },
+        {
+          "id": "op36",
+          "label": "retrieveEmployerPosts"
+        },
+        {
+          "id": "op37",
+          "label": "retrieveEmployerWebinars"
+        },
+        {
+          "id": "op38",
+          "label": "retrieveEventDetail"
+        },
+        {
+          "id": "op39",
+          "label": "retrieveExperienceTypes"
+        },
+        {
+          "id": "op40",
+          "label": "retrieveInstitutes"
+        },
+        {
+          "id": "op41",
+          "label": "retrieveJobOfferDetail"
+        },
+        {
+          "id": "op42",
+          "label": "retrieveLanguageLevels"
+        },
+        {
+          "id": "op43",
+          "label": "retrieveLanguages"
+        },
+        {
+          "id": "op44",
+          "label": "retrievePostDetail"
+        },
+        {
+          "id": "op45",
+          "label": "retrieveQualifications"
+        },
+        {
+          "id": "op46",
+          "label": "retrieveSkillLevels"
+        },
+        {
+          "id": "op47",
+          "label": "retrieveSkills"
+        },
+        {
+          "id": "op48",
+          "label": "retrieveStoryVideo"
+        },
+        {
+          "id": "op49",
+          "label": "retrieveStreamBySlug"
+        },
+        {
+          "id": "op50",
+          "label": "retrieveStreamDetail"
+        },
+        {
+          "id": "op51",
+          "label": "retrieveStreamsHome"
+        },
+        {
+          "id": "op52",
+          "label": "retrieveStudyTags"
+        },
+        {
+          "id": "op53",
+          "label": "retrieveVotes"
+        },
+        {
+          "id": "op54",
+          "label": "retrieveWebinarDetail"
+        },
+        {
+          "id": "op55",
+          "label": "retrieveWebinarParticipation"
+        },
+        {
+          "id": "op56",
+          "label": "scheduleInterview"
+        },
+        {
+          "id": "op57",
+          "label": "startApply"
+        },
+        {
+          "id": "op58",
+          "label": "updateContacts"
+        },
+        {
+          "id": "op59",
+          "label": "updateEducation"
+        },
+        {
+          "id": "op60",
+          "label": "updateExperience"
+        },
+        {
+          "id": "op61",
+          "label": "updateExperienceOrder"
+        },
+        {
+          "id": "op62",
+          "label": "updateLanguageOrder"
+        },
+        {
+          "id": "op63",
+          "label": "updateOrderEducation"
+        },
+        {
+          "id": "op64",
+          "label": "updateProfile"
+        },
+        {
+          "id": "op65",
+          "label": "updateSkillOrder"
+        },
+        {
+          "id": "op66",
+          "label": "updateUserProfile"
+        },
+        {
+          "id": "op67",
+          "label": "uploadCV"
+        },
+        {
+          "id": "op68",
+          "label": "uploadStory"
+        },
+        {
+          "id": "op69",
+          "label": "usersMe"
+        },
+        {
+          "id": "op70",
+          "label": "webinarOffline"
+        },
+        {
+          "id": "op71",
+          "label": "webinarRegistration"
+        }
+      ],
+      "dependencies": [],
+      "communication_cost": 0
+    }
+  ]
+}

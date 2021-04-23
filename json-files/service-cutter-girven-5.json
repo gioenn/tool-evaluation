@@ -1,0 +1,167 @@
+{
+  "microservices": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "entities": [
+        "CareerDay.id",
+        "Institute.id",
+        "Education.id",
+        "CareerDayRegistration.id",
+        "Media.id",
+        "User.id",
+        "StudyTag.id",
+        "Stream.id",
+        "Facebook.id",
+        "Google.id",
+        "City.id",
+        "Apple.id",
+        "Country.id",
+        "Course.id",
+        "Qualification.id",
+        "SkillLevel.id",
+        "Language.id",
+        "LanguageLevel.id",
+        "CheckIn.id",
+        "UserHasSkill.id",
+        "Vote.id",
+        "WebinarParticipation.id",
+        "Webinar.id",
+        "Skill.id",
+        "UserHasLanguage.id",
+        "Application.id",
+        "Profile.id",
+        "JobOffer.id",
+        "Event.id",
+        "MediaSet.id",
+        "Industry.id",
+        "Type.id",
+        "Interview.id",
+        "Sector.id",
+        "Post.id",
+        "MacroStudyTag.id",
+        "FilterDefinition.id",
+        "CommunityArticle.id",
+        "Content.id",
+        "EmployerHasOperator.id"
+      ],
+      "operations": [
+        "AppleV1",
+        "ChangePassword",
+        "Facebook",
+        "ForgotPassword",
+        "Google",
+        "Login",
+        "Logout",
+        "ResetPassword",
+        "RetrieveCommunityArticles",
+        "RetrieveContentsIdFromSlug",
+        "Signup",
+        "applyJobOffer",
+        "createEducation",
+        "createLanguage",
+        "createSkill",
+        "deleteEducation",
+        "deleteInterview",
+        "deleteLanguage",
+        "deleteSkill",
+        "deleteStory",
+        "deleteUser",
+        "employerRetrieveCurriculum",
+        "employerRetrieveUserInfo",
+        "eventCheckIn",
+        "participateWebinar",
+        "registerToCareerDay",
+        "retrieveActivities",
+        "retrieveApplication",
+        "retrieveCompanies",
+        "retrieveCurrentUniversityInfo",
+        "retrieveCurriculum",
+        "retrieveEmployerInfo",
+        "retrieveEmployerJobOffers",
+        "retrieveEmployerPosts",
+        "retrieveEmployerWebinars",
+        "retrieveEventDetail",
+        "retrieveInstitutes",
+        "retrieveJobOfferDetail",
+        "retrieveLanguageLevels",
+        "retrieveLanguages",
+        "retrievePostDetail",
+        "retrieveQualifications",
+        "retrieveSkillLevels",
+        "retrieveSkills",
+        "retrieveStoryVideo",
+        "retrieveStreamBySlug",
+        "retrieveStreamDetail",
+        "retrieveStreamsHome",
+        "retrieveStudyTags",
+        "retrieveVotes",
+        "retrieveWebinarDetail",
+        "retrieveWebinarParticipation",
+        "scheduleInterview",
+        "startApply",
+        "updateContacts",
+        "updateEducation",
+        "updateLanguageOrder",
+        "updateOrderEducation",
+        "updateProfile",
+        "updateSkillOrder",
+        "updateUserProfile",
+        "uploadCV",
+        "uploadStory",
+        "usersMe",
+        "webinarOffline",
+        "webinarRegistration"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "entities": [
+        "CountryHasQualification.id"
+      ],
+      "operations": [
+
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "entities": [
+        "ExperienceType.id",
+        "Experience.id"
+      ],
+      "operations": [
+        "createExperience",
+        "deleteExperience",
+        "retrieveExperienceTypes",
+        "updateExperience",
+        "updateExperienceOrder"
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "entities": [
+        "Filter.id"
+      ],
+      "operations": [
+
+      ],
+      "dependencies": []
+    },{
+      "id": "m5",
+      "label": "M5",
+      "entities": [
+        "ProfileMoment.id"
+      ],
+      "operations": [
+
+      ],
+      "dependencies": []
+    }
+  ]
+}

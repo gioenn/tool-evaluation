@@ -1,0 +1,1429 @@
+{
+  "microservices": [
+    {
+      "id": "m1",
+      "label": "M1",
+      "entities": [
+        {
+          "id": "e44",
+          "label": "Webinar"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op27",
+          "label": "participateWebinar"
+        },
+        {
+          "id": "op55",
+          "label": "retrieveWebinarParticipation"
+        },
+        {
+          "id": "op70",
+          "label": "webinarOffline"
+        },
+        {
+          "id": "op71",
+          "label": "webinarRegistration"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m27",
+          "weight": 5
+        },
+        {
+          "id": "m35",
+          "weight": 5
+        },
+        {
+          "id": "m37",
+          "weight": 5
+        },
+        {
+          "id": "m11",
+          "weight": 150
+        },
+        {
+          "id": "m11",
+          "weight": 150
+        },
+        {
+          "id": "m27",
+          "weight": 3
+        },
+        {
+          "id": "m35",
+          "weight": 3
+        },
+        {
+          "id": "m37",
+          "weight": 3
+        },
+        {
+          "id": "m11",
+          "weight": 150
+        },
+        {
+          "id": "m27",
+          "weight": 5
+        },
+        {
+          "id": "m35",
+          "weight": 5
+        },
+        {
+          "id": "m37",
+          "weight": 5
+        },
+        {
+          "id": "m11",
+          "weight": 150
+        }
+      ],
+      "communication_cost": 639
+    },
+    {
+      "id": "m2",
+      "label": "M2",
+      "entities": [],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m3",
+      "label": "M3",
+      "entities": [
+        {
+          "id": "e8",
+          "label": "Content"
+        }
+      ],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m4",
+      "label": "M4",
+      "entities": [
+        {
+          "id": "e6",
+          "label": "City"
+        },
+        {
+          "id": "e9",
+          "label": "Country"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op40",
+          "label": "retrieveInstitutes"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m37",
+          "weight": 150
+        }
+      ],
+      "communication_cost": 150
+    },
+    {
+      "id": "m5",
+      "label": "M5",
+      "entities": [
+        {
+          "id": "e4",
+          "label": "CareerDayRegistration"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op28",
+          "label": "registerToCareerDay"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m30",
+          "weight": 150
+        },
+        {
+          "id": "m27",
+          "weight": 3
+        },
+        {
+          "id": "m35",
+          "weight": 3
+        },
+        {
+          "id": "m37",
+          "weight": 3
+        }
+      ],
+      "communication_cost": 159
+    },
+    {
+      "id": "m6",
+      "label": "M6",
+      "entities": [
+        {
+          "id": "e5",
+          "label": "CheckIn"
+        },
+        {
+          "id": "e40",
+          "label": "User"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op67",
+          "label": "uploadCV"
+        }
+      ],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m7",
+      "label": "M7",
+      "entities": [],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m8",
+      "label": "M8",
+      "entities": [
+        {
+          "id": "e7",
+          "label": "CommunityArticle"
+        }
+      ],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m9",
+      "label": "M9",
+      "entities": [
+        {
+          "id": "e27",
+          "label": "MacroStudyTag"
+        }
+      ],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m10",
+      "label": "M10",
+      "entities": [
+        {
+          "id": "e15",
+          "label": "Experience"
+        },
+        {
+          "id": "e16",
+          "label": "ExperienceType"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op14",
+          "label": "createExperience"
+        },
+        {
+          "id": "op18",
+          "label": "deleteExperience"
+        },
+        {
+          "id": "op60",
+          "label": "updateExperience"
+        },
+        {
+          "id": "op61",
+          "label": "updateExperienceOrder"
+        }
+      ],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m11",
+      "label": "M11",
+      "entities": [
+        {
+          "id": "e45",
+          "label": "WebinarParticipation"
+        }
+      ],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m12",
+      "label": "M12",
+      "entities": [
+        {
+          "id": "e14",
+          "label": "Event"
+        }
+      ],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m13",
+      "label": "M13",
+      "entities": [
+        {
+          "id": "e13",
+          "label": "EmployerHasOperator"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op48",
+          "label": "retrieveStoryVideo"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m15",
+          "weight": 150
+        },
+        {
+          "id": "m17",
+          "weight": 150
+        }
+      ],
+      "communication_cost": 300
+    },
+    {
+      "id": "m14",
+      "label": "M14",
+      "entities": [
+        {
+          "id": "e36",
+          "label": "SkillLevel"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op46",
+          "label": "retrieveSkillLevels"
+        }
+      ],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m15",
+      "label": "M15",
+      "entities": [
+        {
+          "id": "e2",
+          "label": "Application"
+        },
+        {
+          "id": "e24",
+          "label": "JobOffer"
+        },
+        {
+          "id": "e30",
+          "label": "Post"
+        },
+        {
+          "id": "e37",
+          "label": "Stream"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op29",
+          "label": "retrieveActivities"
+        },
+        {
+          "id": "op30",
+          "label": "retrieveApplication"
+        },
+        {
+          "id": "op49",
+          "label": "retrieveStreamBySlug"
+        },
+        {
+          "id": "op50",
+          "label": "retrieveStreamDetail"
+        },
+        {
+          "id": "op51",
+          "label": "retrieveStreamsHome"
+        },
+        {
+          "id": "op57",
+          "label": "startApply"
+        },
+        {
+          "id": "op68",
+          "label": "uploadStory"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m6",
+          "weight": 4
+        },
+        {
+          "id": "m4",
+          "weight": 4
+        },
+        {
+          "id": "m3",
+          "weight": 4
+        },
+        {
+          "id": "m12",
+          "weight": 4
+        },
+        {
+          "id": "m43",
+          "weight": 4
+        },
+        {
+          "id": "m6",
+          "weight": 150
+        },
+        {
+          "id": "m24",
+          "weight": 150
+        },
+        {
+          "id": "m31",
+          "weight": 150
+        },
+        {
+          "id": "m37",
+          "weight": 150
+        },
+        {
+          "id": "m1",
+          "weight": 4
+        },
+        {
+          "id": "m11",
+          "weight": 4
+        },
+        {
+          "id": "m4",
+          "weight": 5
+        },
+        {
+          "id": "m8",
+          "weight": 5
+        },
+        {
+          "id": "m3",
+          "weight": 5
+        },
+        {
+          "id": "m43",
+          "weight": 5
+        },
+        {
+          "id": "m1",
+          "weight": 5
+        },
+        {
+          "id": "m4",
+          "weight": 5
+        },
+        {
+          "id": "m8",
+          "weight": 5
+        },
+        {
+          "id": "m3",
+          "weight": 5
+        },
+        {
+          "id": "m43",
+          "weight": 5
+        },
+        {
+          "id": "m1",
+          "weight": 5
+        },
+        {
+          "id": "m4",
+          "weight": 10
+        },
+        {
+          "id": "m8",
+          "weight": 10
+        },
+        {
+          "id": "m3",
+          "weight": 10
+        },
+        {
+          "id": "m43",
+          "weight": 10
+        },
+        {
+          "id": "m1",
+          "weight": 10
+        }
+      ],
+      "communication_cost": 728
+    },
+    {
+      "id": "m16",
+      "label": "M16",
+      "entities": [
+        {
+          "id": "e33",
+          "label": "Qualification"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op53",
+          "label": "retrieveVotes"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m36",
+          "weight": 150
+        }
+      ],
+      "communication_cost": 150
+    },
+    {
+      "id": "m17",
+      "label": "M17",
+      "entities": [
+        {
+          "id": "e2",
+          "label": "Application"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op19",
+          "label": "deleteInterview"
+        },
+        {
+          "id": "op22",
+          "label": "deleteStory"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m26",
+          "weight": 150
+        }
+      ],
+      "communication_cost": 150
+    },
+    {
+      "id": "m18",
+      "label": "M18",
+      "entities": [
+        {
+          "id": "e37",
+          "label": "Stream"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op35",
+          "label": "retrieveEmployerJobOffers"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m4",
+          "weight": 8
+        },
+        {
+          "id": "m15",
+          "weight": 150
+        },
+        {
+          "id": "m19",
+          "weight": 150
+        },
+        {
+          "id": "m43",
+          "weight": 150
+        },
+        {
+          "id": "m31",
+          "weight": 8
+        },
+        {
+          "id": "m43",
+          "weight": 8
+        },
+        {
+          "id": "m6",
+          "weight": 8
+        },
+        {
+          "id": "m24",
+          "weight": 8
+        },
+        {
+          "id": "m31",
+          "weight": 8
+        },
+        {
+          "id": "m37",
+          "weight": 8
+        }
+      ],
+      "communication_cost": 506
+    },
+    {
+      "id": "m19",
+      "label": "M19",
+      "entities": [
+        {
+          "id": "e24",
+          "label": "JobOffer"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op38",
+          "label": "retrieveEventDetail"
+        },
+        {
+          "id": "op44",
+          "label": "retrievePostDetail"
+        },
+        {
+          "id": "op56",
+          "label": "scheduleInterview"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m12",
+          "weight": 150
+        },
+        {
+          "id": "m4",
+          "weight": 6
+        },
+        {
+          "id": "m3",
+          "weight": 6
+        },
+        {
+          "id": "m15",
+          "weight": 150
+        },
+        {
+          "id": "m15",
+          "weight": 6
+        },
+        {
+          "id": "m18",
+          "weight": 6
+        },
+        {
+          "id": "m23",
+          "weight": 6
+        },
+        {
+          "id": "m43",
+          "weight": 6
+        },
+        {
+          "id": "m15",
+          "weight": 5
+        },
+        {
+          "id": "m17",
+          "weight": 5
+        },
+        {
+          "id": "m26",
+          "weight": 150
+        }
+      ],
+      "communication_cost": 496
+    },
+    {
+      "id": "m20",
+      "label": "M20",
+      "entities": [
+        {
+          "id": "e19",
+          "label": "FilterDefinition"
+        }
+      ],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m21",
+      "label": "M21",
+      "entities": [
+        {
+          "id": "e32",
+          "label": "ProfileMoment"
+        }
+      ],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m22",
+      "label": "M22",
+      "entities": [
+        {
+          "id": "e21",
+          "label": "Industry"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op31",
+          "label": "retrieveCompanies"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m31",
+          "weight": 5
+        },
+        {
+          "id": "m6",
+          "weight": 150
+        },
+        {
+          "id": "m24",
+          "weight": 150
+        },
+        {
+          "id": "m31",
+          "weight": 150
+        },
+        {
+          "id": "m37",
+          "weight": 150
+        }
+      ],
+      "communication_cost": 605
+    },
+    {
+      "id": "m23",
+      "label": "M23",
+      "entities": [
+        {
+          "id": "e37",
+          "label": "Stream"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op9",
+          "label": "RetrieveCommunityArticles"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m8",
+          "weight": 150
+        },
+        {
+          "id": "m3",
+          "weight": 4
+        }
+      ],
+      "communication_cost": 154
+    },
+    {
+      "id": "m24",
+      "label": "M24",
+      "entities": [
+        {
+          "id": "e40",
+          "label": "User"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op10",
+          "label": "RetrieveContentsIdFromSlug"
+        },
+        {
+          "id": "op54",
+          "label": "retrieveWebinarDetail"
+        },
+        {
+          "id": "op64",
+          "label": "updateProfile"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m3",
+          "weight": 150
+        },
+        {
+          "id": "m3",
+          "weight": 6
+        },
+        {
+          "id": "m1",
+          "weight": 150
+        }
+      ],
+      "communication_cost": 306
+    },
+    {
+      "id": "m25",
+      "label": "M25",
+      "entities": [
+        {
+          "id": "e29",
+          "label": "MediaSet"
+        }
+      ],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m26",
+      "label": "M26",
+      "entities": [
+        {
+          "id": "e23",
+          "label": "Interview"
+        }
+      ],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m27",
+      "label": "M27",
+      "entities": [
+        {
+          "id": "e12",
+          "label": "Education"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op34",
+          "label": "retrieveEmployerInfo"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m31",
+          "weight": 5
+        },
+        {
+          "id": "m6",
+          "weight": 150
+        },
+        {
+          "id": "m24",
+          "weight": 150
+        },
+        {
+          "id": "m31",
+          "weight": 150
+        },
+        {
+          "id": "m37",
+          "weight": 150
+        }
+      ],
+      "communication_cost": 605
+    },
+    {
+      "id": "m28",
+      "label": "M28",
+      "entities": [],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m29",
+      "label": "M29",
+      "entities": [],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m30",
+      "label": "M30",
+      "entities": [
+        {
+          "id": "e3",
+          "label": "CareerDay"
+        }
+      ],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m31",
+      "label": "M31",
+      "entities": [
+        {
+          "id": "e31",
+          "label": "Profile"
+        },
+        {
+          "id": "e40",
+          "label": "User"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op37",
+          "label": "retrieveEmployerWebinars"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m3",
+          "weight": 8
+        },
+        {
+          "id": "m15",
+          "weight": 8
+        },
+        {
+          "id": "m18",
+          "weight": 8
+        },
+        {
+          "id": "m23",
+          "weight": 8
+        },
+        {
+          "id": "m1",
+          "weight": 150
+        }
+      ],
+      "communication_cost": 182
+    },
+    {
+      "id": "m32",
+      "label": "M32",
+      "entities": [],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m33",
+      "label": "M33",
+      "entities": [
+        {
+          "id": "e28",
+          "label": "Media"
+        }
+      ],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m34",
+      "label": "M34",
+      "entities": [],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m35",
+      "label": "M35",
+      "entities": [
+        {
+          "id": "e12",
+          "label": "Education"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op26",
+          "label": "eventCheckIn"
+        },
+        {
+          "id": "op63",
+          "label": "updateOrderEducation"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m6",
+          "weight": 150
+        },
+        {
+          "id": "m12",
+          "weight": 7
+        }
+      ],
+      "communication_cost": 157
+    },
+    {
+      "id": "m36",
+      "label": "M36",
+      "entities": [
+        {
+          "id": "e43",
+          "label": "Vote"
+        }
+      ],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m37",
+      "label": "M37",
+      "entities": [
+        {
+          "id": "e1",
+          "label": "Apple"
+        },
+        {
+          "id": "e12",
+          "label": "Education"
+        },
+        {
+          "id": "e17",
+          "label": "Facebook"
+        },
+        {
+          "id": "e20",
+          "label": "Google"
+        },
+        {
+          "id": "e22",
+          "label": "Institute"
+        },
+        {
+          "id": "e25",
+          "label": "Language"
+        },
+        {
+          "id": "e35",
+          "label": "Skill"
+        },
+        {
+          "id": "e38",
+          "label": "StudyTag"
+        },
+        {
+          "id": "e40",
+          "label": "User"
+        },
+        {
+          "id": "e41",
+          "label": "UserHasLanguage"
+        },
+        {
+          "id": "e42",
+          "label": "UserHasSkill"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op1",
+          "label": "AppleV1"
+        },
+        {
+          "id": "op2",
+          "label": "ChangePassword"
+        },
+        {
+          "id": "op3",
+          "label": "Facebook"
+        },
+        {
+          "id": "op4",
+          "label": "ForgotPassword"
+        },
+        {
+          "id": "op5",
+          "label": "Google"
+        },
+        {
+          "id": "op6",
+          "label": "Login"
+        },
+        {
+          "id": "op7",
+          "label": "Logout"
+        },
+        {
+          "id": "op8",
+          "label": "ResetPassword"
+        },
+        {
+          "id": "op11",
+          "label": "Signup"
+        },
+        {
+          "id": "op12",
+          "label": "applyJobOffer"
+        },
+        {
+          "id": "op13",
+          "label": "createEducation"
+        },
+        {
+          "id": "op15",
+          "label": "createLanguage"
+        },
+        {
+          "id": "op16",
+          "label": "createSkill"
+        },
+        {
+          "id": "op17",
+          "label": "deleteEducation"
+        },
+        {
+          "id": "op20",
+          "label": "deleteLanguage"
+        },
+        {
+          "id": "op21",
+          "label": "deleteSkill"
+        },
+        {
+          "id": "op23",
+          "label": "deleteUser"
+        },
+        {
+          "id": "op24",
+          "label": "employerRetrieveCurriculum"
+        },
+        {
+          "id": "op25",
+          "label": "employerRetrieveUserInfo"
+        },
+        {
+          "id": "op32",
+          "label": "retrieveCurrentUniversityInfo"
+        },
+        {
+          "id": "op33",
+          "label": "retrieveCurriculum"
+        },
+        {
+          "id": "op36",
+          "label": "retrieveEmployerPosts"
+        },
+        {
+          "id": "op43",
+          "label": "retrieveLanguages"
+        },
+        {
+          "id": "op45",
+          "label": "retrieveQualifications"
+        },
+        {
+          "id": "op47",
+          "label": "retrieveSkills"
+        },
+        {
+          "id": "op52",
+          "label": "retrieveStudyTags"
+        },
+        {
+          "id": "op58",
+          "label": "updateContacts"
+        },
+        {
+          "id": "op59",
+          "label": "updateEducation"
+        },
+        {
+          "id": "op62",
+          "label": "updateLanguageOrder"
+        },
+        {
+          "id": "op65",
+          "label": "updateSkillOrder"
+        },
+        {
+          "id": "op66",
+          "label": "updateUserProfile"
+        },
+        {
+          "id": "op69",
+          "label": "usersMe"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m15",
+          "weight": 150
+        },
+        {
+          "id": "m17",
+          "weight": 150
+        },
+        {
+          "id": "m15",
+          "weight": 9
+        },
+        {
+          "id": "m19",
+          "weight": 9
+        },
+        {
+          "id": "m43",
+          "weight": 9
+        },
+        {
+          "id": "m40",
+          "weight": 3
+        },
+        {
+          "id": "m14",
+          "weight": 3
+        },
+        {
+          "id": "m40",
+          "weight": 7
+        },
+        {
+          "id": "m14",
+          "weight": 7
+        },
+        {
+          "id": "m40",
+          "weight": 6
+        },
+        {
+          "id": "m14",
+          "weight": 6
+        },
+        {
+          "id": "m40",
+          "weight": 5
+        },
+        {
+          "id": "m14",
+          "weight": 5
+        },
+        {
+          "id": "m3",
+          "weight": 8
+        },
+        {
+          "id": "m15",
+          "weight": 150
+        },
+        {
+          "id": "m31",
+          "weight": 8
+        },
+        {
+          "id": "m15",
+          "weight": 8
+        },
+        {
+          "id": "m18",
+          "weight": 8
+        },
+        {
+          "id": "m23",
+          "weight": 8
+        },
+        {
+          "id": "m16",
+          "weight": 150
+        },
+        {
+          "id": "m40",
+          "weight": 10
+        },
+        {
+          "id": "m14",
+          "weight": 10
+        }
+      ],
+      "communication_cost": 729
+    },
+    {
+      "id": "m38",
+      "label": "M38",
+      "entities": [
+        {
+          "id": "e18",
+          "label": "Filter"
+        }
+      ],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m39",
+      "label": "M39",
+      "entities": [],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m40",
+      "label": "M40",
+      "entities": [
+        {
+          "id": "e26",
+          "label": "LanguageLevel"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op42",
+          "label": "retrieveLanguageLevels"
+        }
+      ],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m41",
+      "label": "M41",
+      "entities": [
+        {
+          "id": "e10",
+          "label": "CountryHasQualification"
+        }
+      ],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m42",
+      "label": "M42",
+      "entities": [
+        {
+          "id": "e11",
+          "label": "Course"
+        }
+      ],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m43",
+      "label": "M43",
+      "entities": [
+        {
+          "id": "e24",
+          "label": "JobOffer"
+        },
+        {
+          "id": "e39",
+          "label": "Type"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op41",
+          "label": "retrieveJobOfferDetail"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "m4",
+          "weight": 8
+        },
+        {
+          "id": "m22",
+          "weight": 8
+        },
+        {
+          "id": "m44",
+          "weight": 8
+        },
+        {
+          "id": "m6",
+          "weight": 8
+        },
+        {
+          "id": "m24",
+          "weight": 8
+        },
+        {
+          "id": "m31",
+          "weight": 8
+        },
+        {
+          "id": "m37",
+          "weight": 8
+        }
+      ],
+      "communication_cost": 56
+    },
+    {
+      "id": "m44",
+      "label": "M44",
+      "entities": [
+        {
+          "id": "e34",
+          "label": "Sector"
+        }
+      ],
+      "operations": [],
+      "dependencies": [],
+      "communication_cost": 0
+    },
+    {
+      "id": "m45",
+      "label": "M45",
+      "entities": [
+        {
+          "id": "e16",
+          "label": "ExperienceType"
+        }
+      ],
+      "operations": [
+        {
+          "id": "op39",
+          "label": "retrieveExperienceTypes"
+        }
+      ],
+      "dependencies": [],
+      "communication_cost": 0
+    }
+  ]
+}

@@ -1,0 +1,754 @@
+[
+  {
+    "id": "m1",
+    "entities": [
+      {
+        "id": "e38",
+        "label": "StudyTag"
+      },
+      {
+        "id": "e27",
+        "label": "MacroStudyTag"
+      },
+      {
+        "id": "e12",
+        "label": "Education"
+      },
+      {
+        "id": "e22",
+        "label": "Institute"
+      },
+      {
+        "id": "e6",
+        "label": "City"
+      },
+      {
+        "id": "e9",
+        "label": "Country"
+      },
+      {
+        "id": "e11",
+        "label": "Course"
+      },
+      {
+        "id": "e33",
+        "label": "Qualification"
+      },
+      {
+        "id": "e43",
+        "label": "Vote"
+      },
+      {
+        "id": "e10",
+        "label": "CountryHasQualification"
+      },
+      {
+        "id": "e25",
+        "label": "Language"
+      },
+      {
+        "id": "e35",
+        "label": "Skill"
+      },
+      {
+        "id": "e26",
+        "label": "LanguageLevel"
+      },
+      {
+        "id": "e36",
+        "label": "SkillLevel"
+      },
+      {
+        "id": "e42",
+        "label": "UserHasSkill"
+      },
+      {
+        "id": "e41",
+        "label": "UserHasLanguage"
+      },
+      {
+        "id": "e15",
+        "label": "Experience"
+      },
+      {
+        "id": "e16",
+        "label": "ExperienceType"
+      }
+    ],
+    "operations": [
+      {
+        "id": "op13",
+        "label": "createEducation"
+      },
+      {
+        "id": "op14",
+        "label": "createExperience"
+      },
+      {
+        "id": "op15",
+        "label": "createLanguage"
+      },
+      {
+        "id": "op16",
+        "label": "createSkill"
+      },
+      {
+        "id": "op17",
+        "label": "deleteEducation"
+      },
+      {
+        "id": "op18",
+        "label": "deleteExperience"
+      },
+      {
+        "id": "op20",
+        "label": "deleteLanguage"
+      },
+      {
+        "id": "op21",
+        "label": "deleteSkill"
+      },
+      {
+        "id": "op59",
+        "label": "updateEducation"
+      },
+      {
+        "id": "op60",
+        "label": "updateExperience"
+      },
+      {
+        "id": "op61",
+        "label": "updateExperienceOrder"
+      },
+      {
+        "id": "op62",
+        "label": "updateLanguageOrder"
+      },
+      {
+        "id": "op63",
+        "label": "updateOrderEducation"
+      },
+      {
+        "id": "op65",
+        "label": "updateSkillOrder"
+      },
+      {
+        "id": "op52",
+        "label": "retrieveStudyTags"
+      },
+      {
+        "id": "op53",
+        "label": "retrieveVotes"
+      },
+      {
+        "id": "op46",
+        "label": "retrieveSkillLevels"
+      },
+      {
+        "id": "op47",
+        "label": "retrieveSkills"
+      },
+      {
+        "id": "op45",
+        "label": "retrieveQualifications"
+      },
+      {
+        "id": "op42",
+        "label": "retrieveLanguageLevels"
+      },
+      {
+        "id": "op43",
+        "label": "retrieveLanguages"
+      },
+      {
+        "id": "op39",
+        "label": "retrieveExperienceTypes"
+      },
+      {
+        "id": "op40",
+        "label": "retrieveInstitutes"
+      },
+      {
+        "id": "op32",
+        "label": "retrieveCurrentUniversityInfo"
+      },
+      {
+        "id": "op33",
+        "label": "retrieveCurriculum"
+      },
+      {
+        "id": "op24",
+        "label": "employerRetrieveCurriculum"
+      },
+      {
+        "id": "op25",
+        "label": "employerRetrieveUserInfo"
+      },
+      {
+        "id": "op69",
+        "label": "usersMe"
+      }
+    ],
+    "dependencies": [
+      {
+        "id": "m2",
+        "weight": 150
+      },
+      {
+        "id": "m2",
+        "weight": 150
+      },
+      {
+        "id": "m2",
+        "weight": 150
+      },
+      {
+        "id": "m2",
+        "weight": 150
+      },
+      {
+        "id": "m2",
+        "weight": 150
+      }
+    ]
+  },
+  {
+    "id": "m2",
+    "entities": [
+      {
+        "id": "e1",
+        "label": "Apple"
+      },
+      {
+        "id": "e17",
+        "label": "Facebook"
+      },
+      {
+        "id": "e20",
+        "label": "Google"
+      },
+      {
+        "id": "e40",
+        "label": "User"
+      },
+      {
+        "id": "e31",
+        "label": "Profile"
+      },
+      {
+        "id": "e13",
+        "label": "EmployerHasOperator"
+      },
+      {
+        "id": "e32",
+        "label": "ProfileMoment"
+      }
+    ],
+    "operations": [
+      {
+        "id": "op1",
+        "label": "AppleV1"
+      },
+      {
+        "id": "op2",
+        "label": "ChangePassword"
+      },
+      {
+        "id": "op3",
+        "label": "Facebook"
+      },
+      {
+        "id": "op4",
+        "label": "ForgotPassword"
+      },
+      {
+        "id": "op5",
+        "label": "Google"
+      },
+      {
+        "id": "op6",
+        "label": "Login"
+      },
+      {
+        "id": "op7",
+        "label": "Logout"
+      },
+      {
+        "id": "op8",
+        "label": "ResetPassword"
+      },
+      {
+        "id": "op11",
+        "label": "Signup"
+      },
+      {
+        "id": "op66",
+        "label": "updateUserProfile"
+      },
+      {
+        "id": "op34",
+        "label": "retrieveEmployerInfo"
+      },
+      {
+        "id": "op31",
+        "label": "retrieveCompanies"
+      },
+      {
+        "id": "op23",
+        "label": "deleteUser"
+      },
+      {
+        "id": "op58",
+        "label": "updateContacts"
+      },
+      {
+        "id": "op64",
+        "label": "updateProfile"
+      }
+    ],
+    "dependencies": [
+      {
+        "id": "m1",
+        "weight": 50
+      },
+      {
+        "id": "m1",
+        "weight": 25
+      },
+      {
+        "id": "m1",
+        "weight": 25
+      },
+      {
+        "id": "m1",
+        "weight": 60
+      },
+      {
+        "id": "m1",
+        "weight": 30
+      },
+      {
+        "id": "m1",
+        "weight": 30
+      },
+      {
+        "id": "m1",
+        "weight": 60
+      },
+      {
+        "id": "m1",
+        "weight": 30
+      },
+      {
+        "id": "m1",
+        "weight": 30
+      },
+      {
+        "id": "m1",
+        "weight": 40
+      },
+      {
+        "id": "m1",
+        "weight": 20
+      },
+      {
+        "id": "m1",
+        "weight": 20
+      },
+      {
+        "id": "m1",
+        "weight": 5
+      },
+      {
+        "id": "m4",
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "id": "m3",
+    "entities": [
+      {
+        "id": "e28",
+        "label": "Media"
+      },
+      {
+        "id": "e29",
+        "label": "MediaSet"
+      },
+      {
+        "id": "e37",
+        "label": "Stream"
+      },
+      {
+        "id": "e8",
+        "label": "Content"
+      },
+      {
+        "id": "e18",
+        "label": "Filter"
+      },
+      {
+        "id": "e19",
+        "label": "FilterDefinition"
+      },
+      {
+        "id": "e44",
+        "label": "Webinar"
+      },
+      {
+        "id": "e45",
+        "label": "WebinarParticipation"
+      },
+      {
+        "id": "e14",
+        "label": "Event"
+      },
+      {
+        "id": "e5",
+        "label": "CheckIn"
+      },
+      {
+        "id": "e30",
+        "label": "Post"
+      },
+      {
+        "id": "e7",
+        "label": "CommunityArticle"
+      },
+      {
+        "id": "e3",
+        "label": "CareerDay"
+      },
+      {
+        "id": "e4",
+        "label": "CareerDayRegistration"
+      }
+    ],
+    "operations": [
+      {
+        "id": "op9",
+        "label": "RetrieveCommunityArticles"
+      },
+      {
+        "id": "op10",
+        "label": "RetrieveContentsIdFromSlug"
+      },
+      {
+        "id": "op70",
+        "label": "webinarOffline"
+      },
+      {
+        "id": "op71",
+        "label": "webinarRegistration"
+      },
+      {
+        "id": "op67",
+        "label": "uploadCV"
+      },
+      {
+        "id": "op54",
+        "label": "retrieveWebinarDetail"
+      },
+      {
+        "id": "op55",
+        "label": "retrieveWebinarParticipation"
+      },
+      {
+        "id": "op49",
+        "label": "retrieveStreamBySlug"
+      },
+      {
+        "id": "op50",
+        "label": "retrieveStreamDetail"
+      },
+      {
+        "id": "op51",
+        "label": "retrieveStreamsHome"
+      },
+      {
+        "id": "op44",
+        "label": "retrievePostDetail"
+      },
+      {
+        "id": "op38",
+        "label": "retrieveEventDetail"
+      },
+      {
+        "id": "op36",
+        "label": "retrieveEmployerPosts"
+      },
+      {
+        "id": "op37",
+        "label": "retrieveEmployerWebinars"
+      },
+      {
+        "id": "op26",
+        "label": "eventCheckIn"
+      },
+      {
+        "id": "op27",
+        "label": "participateWebinar"
+      },
+      {
+        "id": "op28",
+        "label": "registerToCareerDay"
+      }
+    ],
+    "dependencies": [
+      {
+        "id": "m2",
+        "weight": 5
+      },
+      {
+        "id": "m1",
+        "weight": 3
+      },
+      {
+        "id": "m1",
+        "weight": 5
+      },
+      {
+        "id": "m2",
+        "weight": 3
+      },
+      {
+        "id": "m2",
+        "weight": 6
+      },
+      {
+        "id": "m1",
+        "weight": 5
+      },
+      {
+        "id": "m4",
+        "weight": 5
+      },
+      {
+        "id": "m4",
+        "weight": 5
+      },
+      {
+        "id": "m1",
+        "weight": 5
+      },
+      {
+        "id": "m4",
+        "weight": 5
+      },
+      {
+        "id": "m4",
+        "weight": 5
+      },
+      {
+        "id": "m1",
+        "weight": 10
+      },
+      {
+        "id": "m4",
+        "weight": 10
+      },
+      {
+        "id": "m4",
+        "weight": 10
+      },
+      {
+        "id": "m1",
+        "weight": 6
+      },
+      {
+        "id": "m4",
+        "weight": 6
+      },
+      {
+        "id": "m4",
+        "weight": 6
+      },
+      {
+        "id": "m4",
+        "weight": 5
+      },
+      {
+        "id": "m2",
+        "weight": 8
+      },
+      {
+        "id": "m2",
+        "weight": 8
+      },
+      {
+        "id": "m2",
+        "weight": 8
+      },
+      {
+        "id": "m2",
+        "weight": 8
+      },
+      {
+        "id": "m1",
+        "weight": 7
+      },
+      {
+        "id": "m1",
+        "weight": 5
+      },
+      {
+        "id": "m1",
+        "weight": 3
+      }
+    ]
+  },
+  {
+    "id": "m4",
+    "entities": [
+      {
+        "id": "e24",
+        "label": "JobOffer"
+      },
+      {
+        "id": "e2",
+        "label": "Application"
+      },
+      {
+        "id": "e23",
+        "label": "Interview"
+      },
+      {
+        "id": "e39",
+        "label": "Type"
+      },
+      {
+        "id": "e34",
+        "label": "Sector"
+      },
+      {
+        "id": "e21",
+        "label": "Industry"
+      },
+      {
+        "id": "e28",
+        "label": "Media"
+      },
+      {
+        "id": "e29",
+        "label": "MediaSet"
+      },
+      {
+        "id": "e37",
+        "label": "Stream"
+      },
+      {
+        "id": "e8",
+        "label": "Content"
+      },
+      {
+        "id": "e18",
+        "label": "Filter"
+      },
+      {
+        "id": "e19",
+        "label": "FilterDefinition"
+      }
+    ],
+    "operations": [
+      {
+        "id": "op12",
+        "label": "applyJobOffer"
+      },
+      {
+        "id": "op56",
+        "label": "scheduleInterview"
+      },
+      {
+        "id": "op57",
+        "label": "startApply"
+      },
+      {
+        "id": "op68",
+        "label": "uploadStory"
+      },
+      {
+        "id": "op41",
+        "label": "retrieveJobOfferDetail"
+      },
+      {
+        "id": "op35",
+        "label": "retrieveEmployerJobOffers"
+      },
+      {
+        "id": "op29",
+        "label": "retrieveActivities"
+      },
+      {
+        "id": "op30",
+        "label": "retrieveApplication"
+      },
+      {
+        "id": "op22",
+        "label": "deleteStory"
+      },
+      {
+        "id": "op19",
+        "label": "deleteInterview"
+      },
+      {
+        "id": "op48",
+        "label": "retrieveStoryVideo"
+      }
+    ],
+    "dependencies": [
+      {
+        "id": "m1",
+        "weight": 9
+      },
+      {
+        "id": "m1",
+        "weight": 8
+      },
+      {
+        "id": "m2",
+        "weight": 8
+      },
+      {
+        "id": "m1",
+        "weight": 8
+      },
+      {
+        "id": "m2",
+        "weight": 8
+      },
+      {
+        "id": "m2",
+        "weight": 8
+      },
+      {
+        "id": "m3",
+        "weight": 4
+      },
+      {
+        "id": "m1",
+        "weight": 4
+      },
+      {
+        "id": "m3",
+        "weight": 4
+      },
+      {
+        "id": "m2",
+        "weight": 150
+      },
+      {
+        "id": "m3",
+        "weight": 4
+      },
+      {
+        "id": "m3",
+        "weight": 4
+      },
+      {
+        "id": "m2",
+        "weight": 2
+      }
+    ]
+  }
+]
